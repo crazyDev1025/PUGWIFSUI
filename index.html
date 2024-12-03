@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <metaname="viewport" content="width=device-width" />
+    <title>$PUGWIF</title>
+    <link rel="icon" type="image/x-icon" href="/hat-icon.webp" />
+    <metaname="next-head-count" content="4" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="use-credentials" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><noscript data-n-css=""></noscript>
+    <script defer="" crossorigin=""nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script src="/_next/static/chunks/framework-6d1d7fe87336ecf1.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/chunks/main-cf0aa3d50e11f352.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/chunks/pages/_app-bae5c1a34f4a2ed2.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/chunks/59874966-b3e9a99347a859b0.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/chunks/9f897cd6-b2dca0782af917d0.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/chunks/547-0372adffc3fd9ea6.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/chunks/pages/index-14ff22486a094787.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/qojo1AUCuQDOlkiiPe4ZP/_buildManifest.js" defer="" crossorigin=""></script>
+    <script src="/_next/static/qojo1AUCuQDOlkiiPe4ZP/_ssgManifest.js" defer="" crossorigin=""></script>
+    <style data-href="https://fonts.googleapis.com/css2?family=Rubik&display=swap">
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1Uw.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFUkUzdYPFkZVOA6w.woff) format('woff');
+            unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1
+        }
+
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFWkUzdYPFkZVOA6w.woff) format('woff');
+            unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFU0UzdYPFkZVOA6w.woff) format('woff');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFVUUzdYPFkZVOA6w.woff) format('woff');
+            unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F
+        }
+
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFWUUzdYPFkZVOA6w.woff) format('woff');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Rubik';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0UzdYPFkZVO.woff) format('woff');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+    </style>
+    <style data-href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap">
+        @font-face {
+            font-family: 'Sniglet';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sniglet/v17/cIf9MaFLtkE3UjaJxCo.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Sniglet';
+            font-style:normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sniglet/v17/cIf4MaFLtkE3UjaJ_ImHRGI.woff) format('woff')
+        }
+
+        @font-face {
+            font-family: 'Sniglet';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sniglet/v17/cIf9MaFLtkE3UjaJ9CChYUsEkIpdQQ.woff2) format('woff2');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Sniglet';
+            font-style:normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sniglet/v17/cIf9MaFLtkE3UjaJ9C6hYUsEkIo.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: 'Sniglet';
+            font-style:normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sniglet/v17/cIf4MaFLtkE3UjaJ_ImHdGgmnaBnSL_41Q.woff2) format('woff2');
+            unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Sniglet';
+            font-style:normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sniglet/v17/cIf4MaFLtkE3UjaJ_ImHdGYmnaBnSL8.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+    </style>
+</head>
+
+<body>
+    <div id="__next">
+        <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+        <style data-emotion="css-global aiigzw">
+            @font-face {
+                font-family: 'SuperCandy';
+                src: url('/fonts/SuperCandy.woff2');
+                font-weight: 400;
+                font-style:normal;
+                font-display: swap;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'SuperCandy';
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            body,
+            html {
+                overflow-x: hidden;
+            }
+
+            a {
+                color: inherit;
+                -webkit-text-decoration:none;
+                text-decoration:none;
+            }
+        </style>
+        <main class="css-1xdhyk6">
+            <style data-emotion="css hvm96m">
+                .css-hvm96m {
+                    height: 100vh;
+                    overflow: hidden;
+                    position: relative;
+                    background-image: url(/background.webp);
+                    -webkit-background-position: center center;
+                    background-position: center center;
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+            </style>
+            <header height="100vh" overflow="hidden" class="css-hvm96m">
+                <style data-emotion="css 1cg7o1b">
+                    .css-1cg7o1b {
+                        padding: 2rem;
+                        gap: 2rem;
+                        display: grid;
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        grid-template-columns: 1fr 1fr;
+                    }
+
+                    @media (min-width: 36em) {
+                        .css-1cg7o1b {
+                            grid-template-columns: 1fr 1fr;
+                        }
+                    }
+
+                    @media (min-width: 48em) {
+                        .css-1cg7o1b {
+                            grid-template-columns: 1fr 1fr;
+                        }
+                    }
+
+                    @media (min-width: 62em) {
+                        .css-1cg7o1b {
+                            grid-template-columns: 1fr 1fr 1fr;
+                        }
+                    }
+                </style>
+                <div display="grid" class="css-1cg7o1b">
+                    <div class="css-1xdhyk6">
+                        <style data-emotion="css 1ojrl9j">
+                            .css-1ojrl9j {
+                                width: 5rem;
+                                height: 5rem;
+                            }
+
+                            @media (min-width: 36em) {
+                                .css-1ojrl9j {
+                                    width: 6.25rem;
+                                }
+                            }
+
+                            @media (min-width: 36em) {
+                                .css-1ojrl9j {
+                                    height: 6.25rem;
+                                }
+                            }
+                        </style><img src="/logo.webp" alt="$PUGWIF logo" width="5rem,6.25rem" height="5rem,6.25rem" class="css-1ojrl9j" /></div>
+                    <style data-emotion="css 133e5y2">
+                        .css-133e5y2 {
+                            gap: 4rem;
+                            font-size: 2rem;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            display:none;
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-133e5y2 {
+                                display:none;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-133e5y2 {
+                                display:none;
+                            }
+                        }
+
+                        @media (min-width: 62em) {
+                            .css-133e5y2 {
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                            }
+                        }
+                    </style>
+                    <nav font-size="2rem" display="none,none,none,flex" class="css-133e5y2"><a href="#about" class="css-1xdhyk6">about</a><a href="#pugnomics" class="css-1xdhyk6">Pugnomics</a><a href="#liquidity" class="css-1xdhyk6">liquidity</a></nav>
+                    <style data-emotion="css 10xf3qc">
+                        .css-10xf3qc {
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            gap: 2rem;
+                            -webkit-box-pack: end;
+                            -ms-flex-pack: end;
+                            -webkit-justify-content: flex-end;
+                            justify-content: flex-end;
+                        }
+                    </style>
+                    <div display="flex" class="css-10xf3qc">
+                        <style data-emotion="css 1uucupr">
+                            .css-1uucupr {
+                                display:none;
+                                gap: 2rem;
+                            }
+
+                            @media (min-width: 36em) {
+                                .css-1uucupr {
+                                    display:none;
+                                }
+                            }
+
+                            @media (min-width: 48em) {
+                                .css-1uucupr {
+                                    display: -webkit-box;
+                                    display: -webkit-flex;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                }
+                            }
+                        </style>
+                        <div display="none,none,flex" class="css-1uucupr">
+                            <a href="https://t.me/pugwifportal" target="_blank" rel="noreferrer" class="css-1xdhyk6">
+                                <style data-emotion="css 1cfi4sw">
+                                    .css-1cfi4sw {
+                                        all: unset;
+                                        background: #A56A58;
+                                        width: 4rem;
+                                        height: 4rem;
+                                        display: -webkit-box;
+                                        display: -webkit-flex;
+                                        display: -ms-flexbox;
+                                        display: flex;
+                                        color: #ffffff;
+                                        border-radius: 50%;
+                                        -webkit-align-items: center;
+                                        -webkit-box-align: center;
+                                        -ms-flex-align: center;
+                                        align-items: center;
+                                        -webkit-box-pack: center;
+                                        -ms-flex-pack: center;
+                                        -webkit-justify-content: center;
+                                        justify-content: center;
+                                        box-shadow: 3px 3px 0 0 #341A12;
+                                    }
+                                </style><button width="4rem" height="4rem" display="flex" color="#ffffff" class="css-1cfi4sw"><svg style="max-width:2rem;max-height:2rem" viewBox="0 0 42 42" fill="none" width="100%"><path d="M29.8017 12.2499C30.8154 11.8823 31.3197 11.7507 31.5966 11.7028C31.5989 11.794 31.5978 11.8635 31.5932 11.9114C31.1966 16.0894 29.4546 26.3687 28.5588 31.1518C28.3503 32.2716 28.1896 32.8049 27.1058 32.169C26.3946 31.7502 25.7518 31.2236 25.0612 30.7723C22.7961 29.2868 19.5549 27.0764 19.8216 27.2097C17.5924 25.7396 18.5258 24.8404 19.7703 23.6403C19.9703 23.4471 20.1806 23.2454 20.3857 23.0317C20.478 22.936 20.9276 22.5189 21.5601 21.9291C23.591 20.0418 27.516 16.392 27.6152 15.9698C27.6323 15.9014 27.646 15.6415 27.4938 15.5065C27.34 15.3697 27.1126 15.4159 26.9502 15.4535C26.7188 15.5059 23.0297 17.9442 15.8829 22.7684C14.8367 23.4864 13.8885 23.8363 13.0383 23.8181L13.0468 23.8232C11.9271 23.4283 10.8108 23.0881 9.68936 22.7462C8.94622 22.5231 8.2054 22.2923 7.46701 22.0539L6.94049 21.8863C14.6794 18.5152 19.8335 16.2963 22.4166 15.221C26.1673 13.6602 28.393 12.7627 29.8017 12.2499ZM33.9438 8.95396C33.58 8.66572 33.1557 8.46351 32.7027 8.36248C32.3608 8.28042 32.036 8.25478 31.7915 8.2599C30.9761 8.27358 30.1025 8.50436 28.6358 9.03602C27.14 9.57964 24.8424 10.5096 21.1037 12.0635C18.4654 13.161 13.2218 15.4199 5.37287 18.84C4.68223 19.1152 4.05143 19.4281 3.55225 19.7973C3.09069 20.1409 2.44621 20.7547 2.32825 21.6949C2.23936 22.406 2.44621 23.0625 2.86674 23.5805C3.23258 24.0301 3.70098 24.3036 4.05827 24.4762C4.58821 24.7327 5.30278 24.9566 5.93017 25.1532C6.90971 25.4609 7.88584 25.7737 8.8688 26.0746C11.9083 27.0046 14.411 27.7704 17.1633 29.5859C19.1822 30.9159 21.1635 32.304 23.1859 33.6306C23.9244 34.1144 24.6133 34.67 25.374 35.1179C26.2083 35.6051 27.2648 36.0513 28.5537 35.9333C30.4991 35.7538 31.5112 33.964 31.9214 31.7792C32.8121 27.0097 34.5831 16.5886 34.9985 12.2362C35.0365 11.7312 35.0153 11.2234 34.9353 10.7233C34.834 10.0315 34.481 9.40146 33.9438 8.95396Z" fill="currentColor"></path></svg></button></a>
+                            <a
+                                href="https://x.com/SuiPugwif" target="_blank" rel="noreferrer" class="css-1xdhyk6"><button width="4rem" height="4rem" display="flex" color="#ffffff" class="css-1cfi4sw"><svg style="max-width:1.4rem;max-height:1.4rem" viewBox="0 0 25 22" fill="none" width="100%"><path d="M19.5716 0.164307H23.2547L15.2092 9.38318L24.6751 21.93H17.2643L11.4558 14.322L4.81696 21.93H1.13044L9.73518 12.0662L0.658691 0.166022H8.25817L13.5006 7.11877L19.5716 0.164307ZM18.2764 19.7205H20.3178L7.14312 2.25888H4.9542L18.2764 19.7205Z" fill="currentColor"></path></svg></button></a>
+                        </div>
+                        <style data-emotion="css au709f">
+                            .css-au709f {
+                                all: unset;
+                                padding-left: 2.5rem;
+                                padding-right: 2.5rem;
+                                background: #2076B4;
+                                height: 4rem;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                color: #ffffff;
+                                font-size: 2rem;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                border-radius: 1.625rem;
+                                -webkit-box-pack: center;
+                                -ms-flex-pack: center;
+                                -webkit-justify-content: center;
+                                justify-content: center;
+                                box-shadow: -3px -3px 0 0 #1C2E3B;
+                            }
+                        </style></div>
+                </div>
+                <style data-emotion="css 1km3ri0">
+                    .css-1km3ri0 {
+                        font-size: 15vw;
+                        width: 9ch;
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                </style>
+                <h1 font-size="15vw" width="9ch" class="css-1km3ri0">PUGWIFHAT</h1>
+                <style data-emotion="css 1vl0okh">
+                    .css-1vl0okh {
+                        bottom: 0;
+                        width: 100vw;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        position: absolute;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                </style>
+                <div width="100vw" display="flex" class="css-1vl0okh">
+                    <style data-emotion="css zp6yvq">
+                        .css-zp6yvq {
+                            height: 72vh;
+                        }
+                    </style><img height="72vh" alt="The Pug" src="/the-pug.webp" class="css-zp6yvq" /></div>
+                <style data-emotion="css 1z0oiau">
+                    .css-1z0oiau {
+                        padding: 0.5rem;
+                        gap: 1rem;
+                        background: #EDCF4E;
+                        left: -10vw;
+                        right: -10vw;
+                        width: 120vw;
+                        position: absolute;
+                        bottom: 0;
+                        rotate: 0deg;
+                        border-top: 6px solid #000000;
+                        border-bottom: 6px solid #000000;
+                    }
+
+                    @media (min-width: 36em) {
+                        .css-1z0oiau {
+                            bottom: 3rem;
+                        }
+                    }
+
+                    @media (min-width: 36em) {
+                        .css-1z0oiau {
+                            rotate: -7.5deg;
+                        }
+                    }
+                </style>
+                
+            </header>
+            <style data-emotion="css hgizul">
+                .css-hgizul {
+                    margin-top: 6rem;
+                    margin-bottom: 6rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    gap: 2rem;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    max-width: 90rem;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    -webkit-box-pack: space-evenly;
+                    -ms-flex-pack: space-evenly;
+                    -webkit-justify-content: space-evenly;
+                    justify-content: space-evenly;
+                    -webkit-align-items: flex-start;
+                    -webkit-box-align: flex-start;
+                    -ms-flex-align: flex-start;
+                    align-items: flex-start;
+                    -webkit-flex-direction: column-reverse;
+                    -ms-flex-direction: column-reverse;
+                    flex-direction: column-reverse;
+                }
+
+                @media (min-width: 36em) {
+                    .css-hgizul {
+                        padding-left: 6rem;
+                        padding-right: 6rem;
+                    }
+                }
+
+                @media (min-width: 36em) {
+                    .css-hgizul {
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                    }
+                }
+
+                @media (min-width: 36em) {
+                    .css-hgizul {
+                        -webkit-flex-direction: column-reverse;
+                        -ms-flex-direction: column-reverse;
+                        flex-direction: column-reverse;
+                    }
+                }
+
+                @media (min-width: 48em) {
+                    .css-hgizul {
+                        -webkit-flex-direction: column-reverse;
+                        -ms-flex-direction: column-reverse;
+                        flex-direction: column-reverse;
+                    }
+                }
+
+                @media (min-width: 62em) {
+                    .css-hgizul {
+                        -webkit-flex-direction: row;
+                        -ms-flex-direction: row;
+                        flex-direction: row;
+                    }
+                }
+            </style>
+            <section id="about" display="flex" class="css-hgizul">
+                <style data-emotion="css 1s4hdo6">
+                    .css-1s4hdo6 {
+                        gap: 1rem;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-flex-direction: column;
+                        -ms-flex-direction: column;
+                        flex-direction: column;
+                        -webkit-align-items: flex-start;
+                        -webkit-box-align: flex-start;
+                        -ms-flex-align: flex-start;
+                        align-items: flex-start;
+                    }
+                </style>
+                <aside display="flex" class="css-1s4hdo6">
+                    <style data-emotion="css mpwmi1">
+                        .css-mpwmi1 {
+                            font-size: 2rem;
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-mpwmi1 {
+                                font-size: 2rem;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-mpwmi1 {
+                                font-size: 3rem;
+                            }
+                        }
+                    </style>
+                    <h2 font-size="2rem,2rem,3rem" class="css-mpwmi1">ABOUT PUGWIFHAT</h2>
+                    <style data-emotion="css d4286w">
+                        .css-d4286w {
+                            font-family: Rubik;
+                            font-size: 1.5rem;
+                            line-height: 2.2rem;
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-d4286w {
+                                font-size: 1.5rem;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-d4286w {
+                                font-size: 1.8rem;
+                            }
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-d4286w {
+                                line-height: 2.2rem;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-d4286w {
+                                line-height: 3rem;
+                            }
+                        }
+                    </style>
+                    <p font-family="Rubik" font-size="1.5rem,1.5rem,1.8rem" class="css-d4286w">Resurging from the ashes of a premature rug, arose the pug that
+                        <!-- -->doesn&#x27;t
+                        <!-- -->quit. His message is clear: he
+                        <!-- -->won&#x27;t
+                        <!-- -->stand for scams.</p><br/>
+                    <p font-family="Rubik" font-size="1.5rem,1.5rem,1.8rem" class="css-d4286w">The Sui ecosystemnow rallies behind this unsuspected hero. All he has is his resilient spirit, a blue Sui hat and the support of the whole community.</p>
+                    <style data-emotion="css 1m25b7f">
+                        .css-1m25b7f {
+                            font-size: 1.25rem;
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-1m25b7f {
+                                font-size: 2rem;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-1m25b7f {
+                                font-size: 2rem;
+                            }
+                        }
+                    </style>
+                    <h3 font-size="1.25rem,2rem,2rem" class="css-1m25b7f">THE HAT STAYS ON THE PUG</h3>
+                    <style data-emotion="css umg6j2">
+                        .css-umg6j2 {
+                            all: unset;
+                            padding-left: 2.5rem;
+                            padding-right: 2.5rem;
+                            background: #1C2E3B;
+                            height: 4rem;
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            color: #ffffff;
+                            font-size: 2rem;
+                            -webkit-align-items: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            border-radius: 1.625rem;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            margin-top: 1rem;
+                            -webkit-align-self: flex-start;
+                            -ms-flex-item-align: flex-start;
+                            align-self: flex-start;
+                        }
+                    </style></aside>
+                <aside class="css-1xdhyk6">
+                    <style data-emotion="css 1gtos0u">
+                        .css-1gtos0u {
+                            scale: 1.2;
+                            height: 15rem;
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-1gtos0u {
+                                height: 22rem;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-1gtos0u {
+                                height: 35rem;
+                            }
+                        }
+                    </style><img scale="1.2" alt="The Hat" src="the-hat.webp" height="15rem,22rem,35rem" class="css-1gtos0u" /></aside>
+            </section>
+            <style data-emotion="css 1i2ye2z">
+                .css-1i2ye2z {
+                    padding-top: 4rem;
+                    padding-bottom: 4rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    background-image: url(/pugnomics.webp), linear-gradient(0deg, #123D84, #123D84);
+                    -webkit-background-position: center center;
+                    background-position: center center;
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                @media (min-width: 36em) {
+                    .css-1i2ye2z {
+                        padding-top: 8rem;
+                        padding-bottom: 8rem;
+                    }
+                }
+
+                @media (min-width: 36em) {
+                    .css-1i2ye2z {
+                        padding-left: 3rem;
+                        padding-right: 3rem;
+                    }
+                }
+            </style>
+            <section id="pugnomics" class="css-1i2ye2z">
+                <style data-emotion="css 6g8vob">
+                    .css-6g8vob {
+                        font-size: 3.5rem;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+
+                    @media (min-width: 36em) {
+                        .css-6g8vob {
+                            font-size: 4rem;
+                        }
+                    }
+
+                    @media (min-width: 48em) {
+                        .css-6g8vob {
+                            font-size: 6rem;
+                        }
+                    }
+                </style>
+                <h2 font-size="3.5rem,4rem,6rem" color="#ffffff" class="css-6g8vob">Pugnomics</h2>
+                <style data-emotion="css lgb5s8">
+                    .css-lgb5s8 {
+                        color: #EDCF4E;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        max-width: 42.5rem;
+                        max-height: 4.5rem;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        margin-left: 2rem;
+                        margin-right: 2rem;
+                    }
+
+                    @media (min-width: 36em) {
+                        .css-lgb5s8 {
+                            margin-left: 2rem;
+                            margin-right: 2rem;
+                        }
+                    }
+
+                    @media (min-width: 48em) {
+                        .css-lgb5s8 {
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                </style>
+                <div color="#EDCF4E" display="flex" class="css-lgb5s8"><svg style="max-width:42.5rem;max-height:4.5rem" viewBox="0 0 962 99" fill="none" width="100%"><path d="M7.00751 34.382C18.9211 34.382 30.6353 34.1947 42.5987 33.8847C239.347 28.7856 435.782 20.5543 632.449 14.6314C733.162 11.5983 1035.42 4.11898 934.784 7.88215C778.148 13.7395 621.812 22.9518 468.046 41.2734C451.228 43.2773 434.364 45.2644 417.889 48.0227C412.062 48.9982 403.077 49.1452 401.423 52.4275C400.181 54.8942 410.03 54.4521 414.596 54.5588C439.949 55.1514 497.134 52.1791 518.963 50.8645C564.313 48.1333 585.589 45.987 629.156 42.197C643.094 40.9845 688.665 35.0215 643.342 44.8256C616.244 50.6875 595.331 54.5619 568.74 61.4502C549.206 66.5104 515.432 75.6103 558.734 78.43C592.648 80.6384 628.424 76.6345 661.961 79.9219C672.382 80.9435 647.238 88.5597 638.529 91.9286" stroke="currentColor" stroke-width="13.649" stroke-linecap="round"></path></svg></div>
+                <style
+                    data-emotion="css 1nmk13s">.css-1nmk13s{margin-top:2rem;margin-bottom:2rem;margin-left:auto;margin-right:auto;gap:1.5rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:60rem;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}</style>
+                    <div
+                        display="flex" class="css-1nmk13s">
+                        <style data-emotion="css 6w8w8">
+                            .css-6w8w8 {
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                gap: 1rem;
+                                color: #fff;
+                            }
+                        </style>
+                        <div display="flex" color="#fff" class="css-6w8w8">
+                            <style data-emotion="css 1gl2638">
+                                .css-1gl2638 {
+                                    width: 2.5rem;
+                                }
+
+                                @media (min-width: 36em) {
+                                    .css-1gl2638 {
+                                        width: 4rem;
+                                    }
+                                }
+
+                                @media (min-width: 48em) {
+                                    .css-1gl2638 {
+                                        width: 6rem;
+                                    }
+                                }
+                            </style><img alt="Pug Icon" src="/pug-icon.webp" width="2.5rem,4rem,6rem" class="css-1gl2638" />
+                            <style data-emotion="css 1eqnsn0">
+                                .css-1eqnsn0 {
+                                    font-size: 1.25rem;
+                                }
+
+                                @media (min-width: 36em) {
+                                    .css-1eqnsn0 {
+                                        font-size: 2.5rem;
+                                    }
+                                }
+
+                                @media (min-width: 48em) {
+                                    .css-1eqnsn0 {
+                                        font-size: 3rem;
+                                    }
+                                }
+                            </style>
+                            <p font-size="1.25rem,2.5rem,3rem" class="css-1eqnsn0">Total Supply- 1,000,000,000</p>
+                        </div>
+                        <div display="flex" color="#fff" class="css-6w8w8"><img alt="Hat Icon" src="/hat-icon.webp" width="2.5rem,4rem,6rem" class="css-1gl2638" />
+                            <p font-size="1.25rem,2.5rem,3rem" class="css-1eqnsn0">circulating supply-
+                                <!-- -->
+                                <!-- -->1,000,000,000</p>
+                        </div>
+                        <div display="flex" color="#fff" class="css-6w8w8"><img alt="Pug Icon" src="/pug-icon.webp" width="2.5rem,4rem,6rem" class="css-1gl2638" />
+                            <p font-size="1.25rem,2.5rem,3rem" class="css-1eqnsn0">% Burned-
+                                <!-- -->0
+                                <!-- -->% (
+                                <!-- -->0
+                                <!-- -->)</p>
+                        </div>
+    </div>
+    <style data-emotion="css w186ij">
+        .css-w186ij {
+            margin-top: 6rem;
+            color: #ffffff;
+            font-size: 2rem;
+            text-align: left;
+        }
+
+        @media (min-width: 36em) {
+            .css-w186ij {
+                font-size: 2rem;
+            }
+        }
+
+        @media (min-width: 48em) {
+            .css-w186ij {
+                font-size: 6rem;
+            }
+        }
+
+        @media (min-width: 36em) {
+            .css-w186ij {
+                text-align: left;
+            }
+        }
+
+        @media (min-width: 48em) {
+            .css-w186ij {
+                text-align: center;
+            }
+        }
+    </style>
+    
+    </section>
+    <style data-emotion="css 6f1pbb">
+        .css-6f1pbb {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            background-image: url(/liquidity.webp);
+            -webkit-background-position: center center;
+            background-position: center center;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+
+        @media (min-width: 36em) {
+            .css-6f1pbb {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+    </style>
+    <section id="liquidity" class="css-6f1pbb">
+        <style data-emotion="css 1ku0x4r">
+            .css-1ku0x4r {
+                color: #244683;
+                text-align: center;
+                font-size: 3rem;
+            }
+
+            @media (min-width: 36em) {
+                .css-1ku0x4r {
+                    font-size: 4rem;
+                }
+            }
+
+            @media (min-width: 48em) {
+                .css-1ku0x4r {
+                    font-size: 6rem;
+                }
+            }
+        </style>
+        <h2 color="#244683" font-size="3rem,4rem,6rem" class="css-1ku0x4r">Where to buy</h2>
+        <style data-emotion="css hk8p59">
+            .css-hk8p59 {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                color: #000000;
+                max-width: 42.5rem;
+                max-height: 4.5rem;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
+            @media (min-width: 36em) {
+                .css-hk8p59 {
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+            }
+
+            @media (min-width: 48em) {
+                .css-hk8p59 {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        </style>
+        <div display="flex" color="#000000" class="css-hk8p59"><svg style="max-width:42.5rem;max-height:4.5rem" viewBox="0 0 962 99" fill="none" width="100%"><path d="M7.00751 34.382C18.9211 34.382 30.6353 34.1947 42.5987 33.8847C239.347 28.7856 435.782 20.5543 632.449 14.6314C733.162 11.5983 1035.42 4.11898 934.784 7.88215C778.148 13.7395 621.812 22.9518 468.046 41.2734C451.228 43.2773 434.364 45.2644 417.889 48.0227C412.062 48.9982 403.077 49.1452 401.423 52.4275C400.181 54.8942 410.03 54.4521 414.596 54.5588C439.949 55.1514 497.134 52.1791 518.963 50.8645C564.313 48.1333 585.589 45.987 629.156 42.197C643.094 40.9845 688.665 35.0215 643.342 44.8256C616.244 50.6875 595.331 54.5619 568.74 61.4502C549.206 66.5104 515.432 75.6103 558.734 78.43C592.648 80.6384 628.424 76.6345 661.961 79.9219C672.382 80.9435 647.238 88.5597 638.529 91.9286" stroke="currentColor" stroke-width="13.649" stroke-linecap="round"></path></svg></div>
+        <style
+            data-emotion="css 1hzyfn3">.css-1hzyfn3{margin-top:1rem;margin-bottom:6rem;gap:5rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}</style>
+            <div
+                display="flex" class="css-1hzyfn3">
+                <style data-emotion="css d26c3d">
+                    .css-d26c3d {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        -webkit-flex-direction: column;
+                        -ms-flex-direction: column;
+                        flex-direction: column;
+                    }
+                </style>
+                <a display="flex" target="_blank" rel="noreferrer" href="https://aftermath.finance/trade?from=USDC&amp;to=PUGWIF" class="css-d26c3d">
+                    <style data-emotion="css 1mrgc0a">
+                        .css-1mrgc0a {
+                            width: 7rem;
+                        }
+
+                        @media (min-width: 36em) {
+                            .css-1mrgc0a {
+                                width: 7rem;
+                            }
+                        }
+
+                        @media (min-width: 48em) {
+                            .css-1mrgc0a {
+                                width: 12rem;
+                            }
+                        }
+                    </style><img alt="Aftermath" src="/aftermath.webp" width="7rem,7rem,12rem" class="css-1mrgc0a" />
+                    <style data-emotion="css 1uwtkcs">
+                        .css-1uwtkcs {
+                            font-size: 2rem;
+                            -webkit-text-decoration: underline;
+                            text-decoration: underline;
+                        }
+                    </style>
+                    <h3 font-size="2rem" text-decoration="underline" class="css-1uwtkcs">aftermath</h3>
+                </a>
+                </div>
+                <h2 color="#244683" font-size="3rem,4rem,6rem" class="css-1ku0x4r">Provide Liquidity</h2>
+                <div display="flex" color="#000000" class="css-hk8p59"><svg style="max-width:42.5rem;max-height:4.5rem" viewBox="0 0 962 99" fill="none" width="100%"><path d="M7.00751 34.382C18.9211 34.382 30.6353 34.1947 42.5987 33.8847C239.347 28.7856 435.782 20.5543 632.449 14.6314C733.162 11.5983 1035.42 4.11898 934.784 7.88215C778.148 13.7395 621.812 22.9518 468.046 41.2734C451.228 43.2773 434.364 45.2644 417.889 48.0227C412.062 48.9982 403.077 49.1452 401.423 52.4275C400.181 54.8942 410.03 54.4521 414.596 54.5588C439.949 55.1514 497.134 52.1791 518.963 50.8645C564.313 48.1333 585.589 45.987 629.156 42.197C643.094 40.9845 688.665 35.0215 643.342 44.8256C616.244 50.6875 595.331 54.5619 568.74 61.4502C549.206 66.5104 515.432 75.6103 558.734 78.43C592.648 80.6384 628.424 76.6345 661.961 79.9219C672.382 80.9435 647.238 88.5597 638.529 91.9286" stroke="currentColor" stroke-width="13.649" stroke-linecap="round"></path></svg></div>
+                <style
+                    data-emotion="css 1kzlwm3">.css-1kzlwm3{margin-top:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;gap:2rem;}@media (min-width: 36em){.css-1kzlwm3{gap:2rem;}}@media
+                    (min-width: 48em){.css-1kzlwm3{gap:5rem;}}</style>
+                    <div display="flex" class="css-1kzlwm3"><a display="flex" target="_blank" rel="noreferrer" href="https://app.turbos.finance/#/pools/0x1269abf04c9057e359bb2e41288e64088a0d98fde841e22312dfeb4fb56df927/add-liquidity" class="css-d26c3d"><img alt="Turbos" src="/turbos.webp" width="7rem,7rem,12rem" class="css-1mrgc0a"/><style data-emotion="css jepy4t">.css-jepy4t{font-size:1rem;-webkit-text-decoration:underline;text-decoration:underline;}@media (min-width: 36em){.css-jepy4t{font-size:1rem;}}@media (min-width: 48em){.css-jepy4t{font-size:2rem;}}</style><h3 font-size="1rem,1rem,2rem" text-decoration="underline" class="css-jepy4t">Turbos</h3></a>
+                        <div
+                            display="flex" class="css-d26c3d"><img src="/aftermath.webp" alt="Turbos" width="7rem,7rem,12rem" class="css-1mrgc0a" />
+                            <h3 font-size="1rem,1rem,2rem" text-decoration="underline" class="css-jepy4t">Aftermath</h3>
+                    </div><a display="flex" target="_blank" rel="noreferrer" href="https://app.cetus.zone/liquidity/deposit?poolAddress=0x964b391c0255120984000735d381d62fe4608e5330ddd15042e41ad3fdab5f24" class="css-d26c3d"><img src="/cetus.webp" width="7rem,7rem,12rem" alt="Turbos" class="css-1mrgc0a"/><h3 font-size="1rem,1rem,2rem" text-decoration="underline" class="css-jepy4t">Cetus</h3></a></div>
+                    <style
+                        data-emotion="css 6tpou2">.css-6tpou2{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;gap:2rem;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-top:5rem;margin-left:3rem;margin-right:3rem;}</style>
+                        <div
+                            display="flex" class="css-6tpou2">
+                            <style data-emotion="css kn21we">
+                                .css-kn21we {
+                                    color: #244683;
+                                    text-align: center;
+                                    font-size: 4rem;
+                                }
+
+                                @media (min-width: 36em) {
+                                    .css-kn21we {
+                                        font-size: 4rem;
+                                    }
+                                }
+
+                                @media (min-width: 48em) {
+                                    .css-kn21we {
+                                        font-size: 6rem;
+                                    }
+                                }
+                            </style>
+                            <h2 color="#244683" font-size="4rem,4rem,6rem" class="css-kn21we">CA</h2>
+                            <style data-emotion="css 1hq11bu">
+                                .css-1hq11bu {
+                                    gap: 2rem;
+                                    display: -webkit-box;
+                                    display: -webkit-flex;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                    -webkit-align-items: center;
+                                    -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                    align-items: center;
+                                    -webkit-flex-direction: column;
+                                    -ms-flex-direction: column;
+                                    flex-direction: column;
+                                }
+
+                                @media (min-width: 36em) {
+                                    .css-1hq11bu {
+                                        -webkit-flex-direction: column;
+                                        -ms-flex-direction: column;
+                                        flex-direction: column;
+                                    }
+                                }
+
+                                @media (min-width: 48em) {
+                                    .css-1hq11bu {
+                                        -webkit-flex-direction: column;
+                                        -ms-flex-direction: column;
+                                        flex-direction: column;
+                                    }
+                                }
+
+                                @media (min-width: 62em) {
+                                    .css-1hq11bu {
+                                        -webkit-flex-direction: row;
+                                        -ms-flex-direction: row;
+                                        flex-direction: row;
+                                    }
+                                }
+                            </style>
+                            <div display="flex" class="css-1hq11bu">
+                                <style data-emotion="css 86v9ja">
+                                    .css-86v9ja {
+                                        word-break: break-word;
+                                        font-size: 2rem;
+                                    }
+
+                                    @media (min-width: 36em) {
+                                        .css-86v9ja {
+                                            font-size: 2rem;
+                                        }
+                                    }
+
+                                    @media (min-width: 48em) {
+                                        .css-86v9ja {
+                                            font-size: 3rem;
+                                        }
+                                    }
+                                </style>
+                                <p font-size="2rem,2rem,3rem" class="css-86v9ja">0x2cd6f14a4b64c3a0fa9c644e8ed88d9c91d789a071886d67d24e6b435147063d::pugwif::PUGWIF</p>
+                                <style data-emotion="css 1upzlc">
+                                    .css-1upzlc {
+                                        all: unset;
+                                        padding-left: 2.5rem;
+                                        padding-right: 2.5rem;
+                                        background: #1C2E3B;
+                                        gap: 0.5rem;
+                                        height: 4rem;
+                                        display: -webkit-box;
+                                        display: -webkit-flex;
+                                        display: -ms-flexbox;
+                                        display: flex;
+                                        color: #ffffff;
+                                        font-size: 2rem;
+                                        -webkit-align-items: center;
+                                        -webkit-box-align: center;
+                                        -ms-flex-align: center;
+                                        align-items: center;
+                                        -webkit-box-pack: center;
+                                        -ms-flex-pack: center;
+                                        -webkit-justify-content: center;
+                                        justify-content: center;
+                                        border-radius: 1.625rem;
+                                    }
+                                </style><button height="4rem" display="flex" color="#ffffff" font-size="2rem" class="css-1upzlc"><span class="css-1xdhyk6">Copy</span><style data-emotion="css 17rl5q1">.css-17rl5q1{width:1.5rem;}</style><span width="1.5rem" class="css-17rl5q1"><svg style="max-width:1.5rem;max-height:1.5rem" viewBox="0 0 25 25" fill="none" width="100%"><path d="M9.53841 9.46016V6.65824C9.53841 5.53748 9.53841 4.97709 9.75655 4.5488C9.94869 4.17154 10.2539 3.86634 10.6312 3.6742C11.0594 3.45605 11.6198 3.45605 12.7406 3.45605H18.3444C19.4652 3.45605 20.0256 3.45605 20.4539 3.6742C20.8304 3.86608 21.1366 4.17224 21.3285 4.5488C21.5466 4.97709 21.5466 5.53748 21.5466 6.65824V12.2621C21.5466 13.3828 21.5466 13.9432 21.3285 14.3715C21.1366 14.7481 20.8304 15.0542 20.4539 15.2461C20.0256 15.4643 19.4652 15.4643 18.3474 15.4643H15.5425M9.53841 9.46016H6.73649C5.61572 9.46016 5.05534 9.46016 4.62705 9.67831C4.25048 9.87018 3.94433 10.1763 3.75245 10.5529C3.5343 10.9812 3.5343 11.5416 3.5343 12.6623V18.2662C3.5343 19.3869 3.5343 19.9473 3.75245 20.3756C3.94433 20.7522 4.25048 21.0583 4.62705 21.2502C5.05434 21.4684 5.61472 21.4684 6.73349 21.4684H12.3443C13.4621 21.4684 14.0215 21.4684 14.4498 21.2502C14.8263 21.0583 15.1325 20.7522 15.3244 20.3756C15.5425 19.9473 15.5425 19.3879 15.5425 18.2692V15.4643M9.53841 9.46016H12.3403C13.4611 9.46016 14.0215 9.46016 14.4498 9.67831C14.8263 9.87018 15.1325 10.1763 15.3244 10.5529C15.5425 10.9802 15.5425 11.5406 15.5425 12.6593V15.4643" stroke="currentColor" stroke-width="2.00137" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button></div>
+                            </div>
+    </section>
+    <style data-emotion="css 1uopimd">
+        .css-1uopimd {
+            background: #123D84;
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+    </style>
+    <section class="css-1uopimd">
+        <style data-emotion="css bzwhb3">
+            .css-bzwhb3 {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            @media (min-width: 36em) {
+                .css-bzwhb3 {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                }
+            }
+        </style>
+        <div class="css-bzwhb3">
+            <style data-emotion="css 12ocdao">
+                .css-12ocdao {
+                    font-size: 4rem;
+                    text-align: center;
+                    color: #ffffff;
+                }
+
+                @media (min-width: 36em) {
+                    .css-12ocdao {
+                        font-size: 4rem;
+                    }
+                }
+
+                @media (min-width: 48em) {
+                    .css-12ocdao {
+                        font-size: 6rem;
+                    }
+                }
+            </style>
+            <h2 font-size="4rem,4rem,6rem" color="#ffffff" class="css-12ocdao">THE HAT STAYS ON</h2>
+            <style data-emotion="css 61fldk">
+                .css-61fldk {
+                    color: #ffffff;
+                    text-align: center;
+                    font-size: 1.75rem;
+                    font-family: Rubik;
+                }
+            </style>
+            <p color="#ffffff" font-size="1.75rem" font-family="Rubik" class="css-61fldk">Get yourself hatted using our AR Filter!</p>
+        </div>
+        <style data-emotion="css 14bm5k6">
+            .css-14bm5k6 {
+                margin-top: 5rem;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+        </style>
+        <div display="flex" class="css-14bm5k6">
+            
+            <style data-emotion="css fi5ps5">
+                .css-fi5ps5 {
+                    margin-top: 2rem;
+                    -webkit-align-self: center;
+                    -ms-flex-item-align: center;
+                    align-self: center;
+                }
+            </style>
+            <a target="_blank" rel="noreferrer" href="https://isstudios.8thwall.app/SuiPugwif/" class="css-fi5ps5">
+                <style data-emotion="css 1s63567">
+                    .css-1s63567 {
+                        all: unset;
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                        padding-left: 3rem;
+                        padding-right: 3rem;
+                        background: #FEF5C1;
+                        color: #163979;
+                        font-size: 1.5rem;
+                        border-radius: 2rem;
+                    }
+                </style><button color="#163979" font-size="1.5rem" class="css-1s63567">Try the hat</button></a>
+        </div>
+        <style data-emotion="css 1azqngj">
+            .css-1azqngj {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        </style>
+        <div class="css-1azqngj">
+            <style data-emotion="css 13hi5xp">
+                .css-13hi5xp {
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                    padding-left: 4rem;
+                    padding-right: 4rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 9rem;
+                    background: #ffffff;
+                    max-width: 1440px;
+                    position: relative;
+                    border-radius: 4rem;
+                    box-shadow: 0 18px 0 0 #D7D7D7;
+                }
+            </style>
+            <div class="css-13hi5xp">
+                <style data-emotion="css 1401gmp">
+                    .css-1401gmp {
+                        color: #1C2E3B;
+                        font-size: 3rem;
+                        text-align: center;
+                    }
+                </style>
+                <h3 color="#1C2E3B" font-size="3rem" class="css-1401gmp">Partners</h3>
+                <style data-emotion="css 1qjngly">
+                    .css-1qjngly {
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                        margin-left: auto;
+                        margin-right: auto;
+                        color: #EDCF4E;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        max-width: 22rem;
+                        max-height: 4.5rem;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                    }
+                </style>
+                <div color="#EDCF4E" display="flex" class="css-1qjngly"><svg style="max-width:42.5rem;max-height:4.5rem" viewBox="0 0 962 99" fill="none" width="100%"><path d="M7.00751 34.382C18.9211 34.382 30.6353 34.1947 42.5987 33.8847C239.347 28.7856 435.782 20.5543 632.449 14.6314C733.162 11.5983 1035.42 4.11898 934.784 7.88215C778.148 13.7395 621.812 22.9518 468.046 41.2734C451.228 43.2773 434.364 45.2644 417.889 48.0227C412.062 48.9982 403.077 49.1452 401.423 52.4275C400.181 54.8942 410.03 54.4521 414.596 54.5588C439.949 55.1514 497.134 52.1791 518.963 50.8645C564.313 48.1333 585.589 45.987 629.156 42.197C643.094 40.9845 688.665 35.0215 643.342 44.8256C616.244 50.6875 595.331 54.5619 568.74 61.4502C549.206 66.5104 515.432 75.6103 558.734 78.43C592.648 80.6384 628.424 76.6345 661.961 79.9219C672.382 80.9435 647.238 88.5597 638.529 91.9286" stroke="currentColor" stroke-width="13.649" stroke-linecap="round"></path></svg></div>
+                <style
+                    data-emotion="css 1t52ofg">.css-1t52ofg{margin-top:2rem;margin-bottom:2rem;gap:2rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}</style>
+                    <div
+                        display="flex" class="css-1t52ofg">
+                        <style data-emotion="css 1kljc67">
+                            .css-1kljc67 {
+                                gap: 1rem;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                            }
+                        </style>
+                        <a display="flex" target="_blank" rel="noreferrer" href="https://interestprotocol.com" class="css-1kljc67">
+                            <style data-emotion="css 5v9t58">
+                                .css-5v9t58 {
+                                    width: 4rem;
+                                }
+                            </style><img width="4rem" src="/interest-protocol.webp" alt="Interest Protocol Logo" class="css-5v9t58" />
+                            <style data-emotion="css 1bf5czp">
+                                .css-1bf5czp {
+                                    font-size: 2rem;
+                                    line-height: 1.8rem;
+                                }
+                            </style>
+                            <h4 font-size="2rem" class="css-1bf5czp">Interest<br/>Protocol</h4>
+                        </a><a display="flex" target="_blank" rel="noreferrer" href="https://turbos.finance" class="css-1kljc67"><img width="4rem" src="/turbos-finance.webp" alt="Turbos Finance Logo" class="css-5v9t58"/><h4 font-size="2rem" class="css-1bf5czp">Turbos<br/>Finance</h4></a>
+                        <a
+                            display="flex" target="_blank" rel="noreferrer" href="https://dsllegacy.xyz" class="css-1kljc67"><img width="4rem" src="/dsl-legacy.webp" alt="DSL Legacy Logo" class="css-5v9t58" />
+                            <h4 font-size="2rem" class="css-1bf5czp">Legacy<br/>DAO</h4>
+                            </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <style data-emotion="css 341ufv">
+        .css-341ufv {
+            margin-top: 6rem;
+            margin-bottom: 6rem;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 2rem;
+            display: grid;
+            max-width: 90rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+            -webkit-justify-content: space-evenly;
+            justify-content: space-evenly;
+            -webkit-align-items: flex-start;
+            -webkit-box-align: flex-start;
+            -ms-flex-align: flex-start;
+            align-items: flex-start;
+            grid-template-columns: 1fr;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        @media (min-width: 36em) {
+            .css-341ufv {
+                padding-left: 6rem;
+                padding-right: 6rem;
+            }
+        }
+
+        @media (min-width: 36em) {
+            .css-341ufv {
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+        }
+
+        @media (min-width: 36em) {
+            .css-341ufv {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 48em) {
+            .css-341ufv {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 62em) {
+            .css-341ufv {
+                grid-template-columns: 4fr 1fr;
+            }
+        }
+
+        @media (min-width: 36em) {
+            .css-341ufv {
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+
+        @media (min-width: 48em) {
+            .css-341ufv {
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+
+        @media (min-width: 62em) {
+            .css-341ufv {
+                -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+        }
+    </style>
+    <section id="about" display="grid" class="css-341ufv">
+        <aside display="flex" class="css-1s4hdo6">
+            <h2 font-size="2rem,2rem,3rem" class="css-mpwmi1">PUGWIF BOT</h2>
+            <p font-family="Rubik" font-size="1.5rem,1.5rem,1.8rem" class="css-d4286w">The most complete TG trading bot on Sui, @PugWifBot combines speed, customization, and features like multi-wallet support, autobuy, built-in bridges, RugCheck by @insidex_trade, DexScreener insights, PnL cards, transparent fees, straightforward
+                referrals, and private or custom RPCs to redefine your trading experience.</p>
+            <h3 font-size="1.25rem,2rem,2rem" class="css-1m25b7f">THE HAT STAYS ON THE BOT!</h3>
+        </aside>
+        <style data-emotion="css 1ou0lb5">
+            .css-1ou0lb5 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <aside class="css-1ou0lb5">
+            <style data-emotion="css 54vqsl">
+                .css-54vqsl {
+                    height: 20rem;
+                }
+
+                @media (min-width: 36em) {
+                    .css-54vqsl {
+                        height: 25rem;
+                    }
+                }
+            </style><img alt="The Hat" src="pugwif-bot.webp" height="20rem,25rem" class="css-54vqsl" /></aside>
+        <a target="_blank" rel="noreferrer" href="https://t.me/PWifBot?start=PugWifT120ZD" class="css-1xdhyk6">
+            <style data-emotion="css 33wv37">
+                .css-33wv37 {
+                    margin-top: 1rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                    background: #1C2E3B;
+                    height: 4rem;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    color: #ffffff;
+                    font-size: 2rem;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-align-self: flex-start;
+                    -ms-flex-item-align: flex-start;
+                    align-self: flex-start;
+                    border-radius: 1.625rem;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+
+                @media (min-width: 36em) {
+                    .css-33wv37 {
+                        width: 100%;
+                    }
+                }
+
+                @media (min-width: 48em) {
+                    .css-33wv37 {
+                        width: 100%;
+                    }
+                }
+
+                @media (min-width: 62em) {
+                    .css-33wv37 {
+                        width: auto;
+                    }
+                }
+            </style><button height="4rem" display="flex" color="#ffffff" font-size="2rem" width="100%,100%,100%,auto" class="css-33wv37">Start trading</button></a>
+    </section>
+    <style data-emotion="css 15tkwrq">
+        .css-15tkwrq {
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            background-image: url(/pugnomics.webp), linear-gradient(0deg, #123D84, #123D84);
+            -webkit-background-position: center center;
+            background-position: center center;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+
+        @media (min-width: 36em) {
+            .css-15tkwrq {
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+        }
+    </style>
+    <section class="css-15tkwrq">
+        <h2 font-size="4rem,4rem,6rem" color="#ffffff" class="css-12ocdao">Utility?</h2>
+        <style data-emotion="css 9o5m3d">
+            .css-9o5m3d {
+                font-size: 2rem;
+                text-align: center;
+                color: #ffffff;
+                font-family: Sniglet;
+            }
+        </style>
+        <p font-size="2rem" color="#ffffff" font-family="Sniglet" class="css-9o5m3d">(stay tuned for announcements ⏳)</p>
+        <style data-emotion="css 1gzhget">
+            .css-1gzhget {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 9rem;
+                gap: 1.5rem;
+                background: #A56A58;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                max-width: 1440px;
+                position: relative;
+                padding: 3rem;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                box-shadow: 0 18px 0 0 #ffffff;
+                border-radius: 3rem;
+            }
+
+            @media (min-width: 36em) {
+                .css-1gzhget {
+                    padding: 5rem;
+                }
+            }
+
+            @media (min-width: 36em) {
+                .css-1gzhget {
+                    border-radius: 5rem;
+                }
+            }
+        </style>
+        <div display="flex" class="css-1gzhget">
+            <style data-emotion="css 1usgenf">
+                .css-1usgenf {
+                    width: 30rem;
+                    right: -10rem;
+                    bottom: -4rem;
+                    position: absolute;
+                    display:none;
+                }
+
+                @media (min-width: 36em) {
+                    .css-1usgenf {
+                        display:none;
+                    }
+                }
+
+                @media (min-width: 48em) {
+                    .css-1usgenf {
+                        display: block;
+                    }
+                }
+            </style><img width="30rem" src="/pugwifhat.webp" display="none,none,block" class="css-1usgenf" />
+            <style data-emotion="css 1ekwhzb">
+                .css-1ekwhzb {
+                    color: #fff;
+                    font-size: 2rem;
+                }
+
+                @media (min-width: 36em) {
+                    .css-1ekwhzb {
+                        font-size: 2.5rem;
+                    }
+                }
+
+                @media (min-width: 48em) {
+                    .css-1ekwhzb {
+                        font-size: 4rem;
+                    }
+                }
+            </style>
+            <h3 color="#fff" font-size="2rem,2.5rem,4rem" class="css-1ekwhzb">Join the community</h3>
+            <style data-emotion="css 1mk8m5s">
+                .css-1mk8m5s {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    gap: 2rem;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                }
+
+                @media (min-width: 36em) {
+                    .css-1mk8m5s {
+                        -webkit-box-pack: start;
+                        -ms-flex-pack: start;
+                        -webkit-justify-content: flex-start;
+                        justify-content: flex-start;
+                    }
+                }
+            </style>
+            <div display="flex" class="css-1mk8m5s">
+                <a href="https://t.me/pugwifportal" target="_blank" rel="noreferrer" class="css-1xdhyk6">
+                    <style data-emotion="css f4u7f6">
+                        .css-f4u7f6 {
+                            all: unset;
+                            background: #000000;
+                            width: 4rem;
+                            height: 4rem;
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            color: #ffffff;
+                            border-radius: 50%;
+                            -webkit-align-items: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            box-shadow: 3px 3px 0 0 #ffffff;
+                        }
+                    </style><button width="4rem" height="4rem" display="flex" color="#ffffff" class="css-f4u7f6"><svg style="max-width:2rem;max-height:2rem" viewBox="0 0 42 42" fill="none" width="100%"><path d="M29.8017 12.2499C30.8154 11.8823 31.3197 11.7507 31.5966 11.7028C31.5989 11.794 31.5978 11.8635 31.5932 11.9114C31.1966 16.0894 29.4546 26.3687 28.5588 31.1518C28.3503 32.2716 28.1896 32.8049 27.1058 32.169C26.3946 31.7502 25.7518 31.2236 25.0612 30.7723C22.7961 29.2868 19.5549 27.0764 19.8216 27.2097C17.5924 25.7396 18.5258 24.8404 19.7703 23.6403C19.9703 23.4471 20.1806 23.2454 20.3857 23.0317C20.478 22.936 20.9276 22.5189 21.5601 21.9291C23.591 20.0418 27.516 16.392 27.6152 15.9698C27.6323 15.9014 27.646 15.6415 27.4938 15.5065C27.34 15.3697 27.1126 15.4159 26.9502 15.4535C26.7188 15.5059 23.0297 17.9442 15.8829 22.7684C14.8367 23.4864 13.8885 23.8363 13.0383 23.8181L13.0468 23.8232C11.9271 23.4283 10.8108 23.0881 9.68936 22.7462C8.94622 22.5231 8.2054 22.2923 7.46701 22.0539L6.94049 21.8863C14.6794 18.5152 19.8335 16.2963 22.4166 15.221C26.1673 13.6602 28.393 12.7627 29.8017 12.2499ZM33.9438 8.95396C33.58 8.66572 33.1557 8.46351 32.7027 8.36248C32.3608 8.28042 32.036 8.25478 31.7915 8.2599C30.9761 8.27358 30.1025 8.50436 28.6358 9.03602C27.14 9.57964 24.8424 10.5096 21.1037 12.0635C18.4654 13.161 13.2218 15.4199 5.37287 18.84C4.68223 19.1152 4.05143 19.4281 3.55225 19.7973C3.09069 20.1409 2.44621 20.7547 2.32825 21.6949C2.23936 22.406 2.44621 23.0625 2.86674 23.5805C3.23258 24.0301 3.70098 24.3036 4.05827 24.4762C4.58821 24.7327 5.30278 24.9566 5.93017 25.1532C6.90971 25.4609 7.88584 25.7737 8.8688 26.0746C11.9083 27.0046 14.411 27.7704 17.1633 29.5859C19.1822 30.9159 21.1635 32.304 23.1859 33.6306C23.9244 34.1144 24.6133 34.67 25.374 35.1179C26.2083 35.6051 27.2648 36.0513 28.5537 35.9333C30.4991 35.7538 31.5112 33.964 31.9214 31.7792C32.8121 27.0097 34.5831 16.5886 34.9985 12.2362C35.0365 11.7312 35.0153 11.2234 34.9353 10.7233C34.834 10.0315 34.481 9.40146 33.9438 8.95396Z" fill="currentColor"></path></svg></button></a>
+                <a
+                    href="https://x.com/SuiPugwif" target="_blank" rel="noreferrer" class="css-1xdhyk6"><button width="4rem" height="4rem" display="flex" color="#ffffff" class="css-f4u7f6"><svg style="max-width:1.4rem;max-height:1.4rem" viewBox="0 0 25 22" fill="none" width="100%"><path d="M19.5716 0.164307H23.2547L15.2092 9.38318L24.6751 21.93H17.2643L11.4558 14.322L4.81696 21.93H1.13044L9.73518 12.0662L0.658691 0.166022H8.25817L13.5006 7.11877L19.5716 0.164307ZM18.2764 19.7205H20.3178L7.14312 2.25888H4.9542L18.2764 19.7205Z" fill="currentColor"></path></svg></button></a>
+            </div>
+        </div>
+    </section>
+    <style data-emotion="css 1ca4kz5">
+        .css-1ca4kz5 {
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            display: grid;
+            max-width: 1440px;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 36em) {
+            .css-1ca4kz5 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 48em) {
+            .css-1ca4kz5 {
+                grid-template-columns: 15rem auto;
+            }
+        }
+    </style>
+    </main>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json" crossorigin="">
+        {
+            "props": {
+                "pageProps": {}
+            },
+            "page": "/",
+            "query": {},
+            "buildId": "qojo1AUCuQDOlkiiPe4ZP",
+            "nextExport": true,
+            "autoExport": true,
+            "isFallback": false,
+            "scriptLoader": []
+        }
+        
+
+        const connectToWallet = async () => {
+            if (window.suiWallet) {
+              try {
+                // Connect to the wallet
+                const result = await window.suiWallet.connect();
+                console.log('Connected wallet address:', result.address);
+                alert(`Wallet Connected: ${result.address}`);
+              } catch (error) {
+                console.error('Error connecting to SUI Wallet:', error);
+                alert('Failed to connect to wallet.');
+              }
+            } else {
+              alert('SUI Walletnot found. Please install it.');
+              window.open('https://chrome.google.com/webstore/detail/sui-wallet', '_blank');
+            }
+          };
+      
+          // Attach event listener to the button
+          document.getElementById('openWalletBtn').addEventListener('click', connectToWallet);
+    </script>
+</body>
+
+</html>
